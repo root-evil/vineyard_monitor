@@ -1,1 +1,1 @@
-npm install && npm start --host 0.0.0.0:9004
+npm install && PORT=9004 npm start --host 0.0.0.0
