@@ -1,1 +1,1 @@
-set PORT=9004 && react-scripts start
+yarn && yarn start
