@@ -11,7 +11,7 @@ export default memo(() => {
       setLoading(true);
 
       const data = await fetch(
-        `http://51.250.108.249:9005/api/v1/logs/${params?.name}`
+        `http://51.250.23.5:9005/api/v1/logs/${params?.name}`
       );
 
       const res = await data.text();
