@@ -1,0 +1,33 @@
+.wrapperMain {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+
+.main {
+  width: 100%;
+}
+
+.item {
+  border: 1px solid gray;
+  border-radius: 1rem;
+  padding: 8px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.item-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-status {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item-field {
+  margin-bottom: 4px;
+}
