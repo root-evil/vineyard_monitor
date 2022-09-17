@@ -8,7 +8,7 @@ function App() {
 
   const fetchData = useCallback(async () => {
     try {
-      const data = await fetch(`http://51.250.99.19:9005/api/v1/projects`, {
+      const data = await fetch(`http://51.250.23.5:9005/api/v1/projects`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json;charset=utf-8",
