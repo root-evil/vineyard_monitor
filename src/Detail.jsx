@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 export default memo(() => {
   const params = useParams();
-  const [loading, setLoading] = useState(false);
+  const [, setLoading] = useState(false);
   const [data, setData] = useState();
 
   const fetchData = useCallback(async () => {

@@ -27,9 +27,7 @@ function App() {
     fetchData();
   }, [fetchData]);
 
-  console.log(data);
-
-  const listOfItems = data?.map((item) => {
+  const listOfItems = (data || [])?.map((item) => {
     return (
       <div
         className={styles?.item}
